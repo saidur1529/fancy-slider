@@ -89,7 +89,7 @@ const createSlider = () => {
     item.innerHTML = `<img class="w-100"
     src="${slide}"
     alt="">`;
-    sliderContainer.appendChild(item)
+    sliderContainer.appendChild(item);
   })
   changeSlide(0)
   timer = setInterval(function () {

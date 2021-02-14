@@ -66,7 +66,7 @@ const createSlider = () => {
   }
   const duration = document.getElementById('duration').value || 1000;
   if(duration<0 || duration < 1000){
-    alert('duration must be positive number and greater than 1second')
+    alert('duration must be positive number and greater than 1000ms')
     return;
   }
   // crate slider previous next area
